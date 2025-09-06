@@ -1,6 +1,9 @@
 {
-  "name": "wfp-webhook",
+  "name": "vidlik-wfp-webhook",
+  "version": "1.0.0",
   "private": true,
-  "type": "module",
-  "dependencies": { "firebase-admin": "^12.5.0" }
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^12.5.0"
+  }
 }
