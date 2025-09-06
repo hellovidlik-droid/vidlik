@@ -1,4 +1,11 @@
 {
   "version": 2,
-  "functions": { "api/wfpWebhook.js": { "runtime": "nodejs18.x", "memory": 128 } }
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    { "src": "/api/wfpWebhook", "dest": "/api/wfpWebhook.js" }
+  ]
 }
