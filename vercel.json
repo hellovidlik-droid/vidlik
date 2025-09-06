@@ -1,0 +1,4 @@
+{
+  "version": 2,
+  "functions": { "api/wfpWebhook.js": { "runtime": "nodejs18.x", "memory": 128 } }
+}
